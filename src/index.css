@@ -38,6 +38,9 @@ body {
   align-items: center;
   height: 40px;
 }
+.location-icon{
+  color: #f55a5a;
+}
 .location-name{
   margin-right: 20px;
   letter-spacing: 2px;

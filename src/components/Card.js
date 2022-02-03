@@ -1,4 +1,5 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Card(props) {
   return (
@@ -6,7 +7,9 @@ export default function Card(props) {
       <div className="card-image-container"><img className="card-picture" src={`/images/${props.item.img}`} alt={`${props.item.location}`}/></div>
       <div className="card-content-container">
         <div className="card-location-sec">
-          <h4 className="location-name"><span className="location-icon"></span>{props.item.location}</h4>
+          <h4 className="location-name">
+            <span className="location-icon"><FontAwesomeIcon icon="map-marker-alt" /></span> {props.item.location}
+          </h4>
           <a className="location-link" href={`${props.item.mapLink}`}>View on Google Map</a>
         </div>
         <h1 className="card-title">{props.item.title}</h1>
