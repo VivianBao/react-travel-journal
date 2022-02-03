@@ -10,7 +10,7 @@ export default function Card(props) {
           <a className="location-link" href={`${props.item.mapLink}`}>View on Google Map</a>
         </div>
         <h1 className="card-title">{props.item.title}</h1>
-        <h4 className="card-date">{props.item.startDate} - {props.item.endDate}</h4>
+        <p className="card-date">{props.item.startDate} - {props.item.endDate}</p>
         <p className="card-description">{props.item.description}</p>
       </div>
     </div>
