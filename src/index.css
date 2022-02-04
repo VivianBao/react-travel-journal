@@ -1,12 +1,13 @@
 body {
   font-family: 'Inter', sans-serif;
+  margin: 0;
 }
 
 /* card */
 .card-container{
   display: flex;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   width: 90%;
   justify-content: center;
   border-bottom: solid 1px rgb(233, 231, 231);
@@ -38,6 +39,7 @@ body {
   align-items: center;
   height: 40px;
 }
+
 .location-icon{
   color: #f55a5a;
 }
@@ -67,4 +69,26 @@ body {
 }
 .location-link {
   text-decoration: none;
+}
+
+
+/* navbar */
+.navbar{
+  display: flex;
+  background-color: #f55a5a;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.navbar-icon{
+  margin-right: 10px;
+  color: white;
+}
+
+.navbar-title{
+  color: white;
 }
